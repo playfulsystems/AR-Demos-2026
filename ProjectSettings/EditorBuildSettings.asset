@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Demos/00 - Setup/00-Setup.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Demos/01 - Shooter/01-Shooter.unity
     guid: 6df5372a55ba84bb3ae59bbe759f4431
+  - enabled: 1
+    path: Assets/Demos/02 - Plane Detection/02-PlaneDetection.unity
+    guid: c8cff3365c54740bd8c525bb920afef1
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 197191d367cf840e18b5d45fadf509c9, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a394ea926612b454082055cbc3d9277d, type: 2}
