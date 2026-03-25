@@ -9,12 +9,12 @@ public class ARShoot : MonoBehaviour
       
     
     void OnEnable() { 
-        tapAction.action.performed += OnTapDetected; 
+        //tapAction.action.performed += OnTapDetected; 
         //tapAction.action.Enable(); 
     }
     
     void OnDisable() { 
-        tapAction.action.performed -= OnTapDetected; 
+        //tapAction.action.performed -= OnTapDetected; 
         //tapAction.action.Disable(); 
     } 
     
@@ -27,6 +27,16 @@ public class ARShoot : MonoBehaviour
         newProjectile.transform.position = transform.position; 
         Vector3 shotVelocity = transform.forward * shotSpeed; 
         newProjectile.GetComponent<Rigidbody>().linearVelocity = shotVelocity; 
-    
-    } 
+    }
+
+    public void ShootWithPrefab(GameObject projectileToSpawn)
+    {
+        Debug.Log("SHOOT: " + projectile.name); // see in ingameDebugConsole
+        
+        GameObject newProjectile = Instantiate(projectileToSpawn);
+        
+        newProjectile.transform.position = transform.position;
+        Vector3 shotVelocity = transform.forward * shotSpeed;
+        newProjectile.GetComponent<Rigidbody>().linearVelocity = shotVelocity;
+    }
 }
