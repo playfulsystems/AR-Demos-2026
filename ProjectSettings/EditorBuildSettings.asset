@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Demos/01 - Shooter/01-Shooter.unity
     guid: 6df5372a55ba84bb3ae59bbe759f4431
-  - enabled: 1
+  - enabled: 0
     path: Assets/Demos/02 - Plane Detection/02-PlaneDetection.unity
     guid: c8cff3365c54740bd8c525bb920afef1
+  - enabled: 1
+    path: Assets/Demos/03 - Plane Tap Game/03-PlaneTapGame.unity
+    guid: 519e7d4bf0f91404fb959e0cdb092ca0
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 197191d367cf840e18b5d45fadf509c9, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a394ea926612b454082055cbc3d9277d, type: 2}
