@@ -23,9 +23,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Demos/05 - Face Tracking/05-FaceTracking.unity
     guid: 65a1239b54faf4b2ea52a67bd323a138
-  - enabled: 1
+  - enabled: 0
     path: Assets/Demos/06 - Faceball/06-FaceBall.unity
     guid: d800ccc8bb9b9456c8407e0f436c0aad
+  - enabled: 0
+    path: Assets/Demos/07 - Hats/07-Hats.unity
+    guid: 7010f5848b27948c2991f2c7197f782e
+  - enabled: 1
+    path: Assets/Demos/07 - Hats/07-FaceTrackingHats.unity
+    guid: cf6da2ce6fc8242ae8c024bbfa4bea76
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 197191d367cf840e18b5d45fadf509c9, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a394ea926612b454082055cbc3d9277d, type: 2}
