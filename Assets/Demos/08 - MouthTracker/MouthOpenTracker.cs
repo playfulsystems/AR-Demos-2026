@@ -55,7 +55,7 @@ public class MouthOpenTracker : MonoBehaviour
 
             foreach (var shape in blendShapes)
             {
-                if (shape.blendShapeId == (int)ARKitBlendShapeLocation.JawOpen)
+                if (shape.blendShapeId == (int)ARKitBlendShapeLocation.TongueOut)
                 {
                     JawOpen = shape.weight;
                     break;

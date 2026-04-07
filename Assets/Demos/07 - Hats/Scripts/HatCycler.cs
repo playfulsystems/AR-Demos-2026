@@ -46,7 +46,6 @@ public class HatCycler : MonoBehaviour
 
     void OnTap(InputAction.CallbackContext ctx)
     {
-        Debug.Log("NO HATS 0 NO TAP");
         if (hatPrefabs.Count == 0) return;
 
         Debug.Log("TAP TAP TAP");
